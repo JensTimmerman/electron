@@ -43,7 +43,7 @@ On RHEL / CentOS, install the following libraries:
 $ sudo yum install clang dbus-devel gtk3-devel libnotify-devel \
                    libgnome-keyring-devel xorg-x11-server-utils libcap-devel \
                    cups-devel libXtst-devel alsa-lib-devel libXrandr-devel \
-                   nss-devel python-dbusmock openjdk-8-jre
+                   nss-devel python-dbusmock gperf bison openjdk-8-jre
 ```
 
 On Fedora, install the following libraries:
@@ -52,7 +52,7 @@ On Fedora, install the following libraries:
 $ sudo dnf install clang dbus-devel gtk3-devel libnotify-devel \
                    libgnome-keyring-devel xorg-x11-server-utils libcap-devel \
                    cups-devel libXtst-devel alsa-lib-devel libXrandr-devel \
-                   nss-devel python-dbusmock openjdk-8-jre
+                   nss-devel python-dbusmock gperf bison openjdk-8-jre
 ```
 
 Other distributions may offer similar packages for installation via package
